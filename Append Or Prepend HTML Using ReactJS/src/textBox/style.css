@@ -1,0 +1,40 @@
+#mainContainer {
+  width: 500px;  
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 30px auto;
+}
+textarea {
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+}
+
+.button {
+  background-color: #00BFFF;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+  margin-right: 50px;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
+#display-data{
+margin-top:12px;
+background: #e5e5e5;
+padding:1px;
+
+}

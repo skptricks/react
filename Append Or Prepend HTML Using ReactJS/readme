@@ -1,0 +1,27 @@
+Post Link :
+https://www.skptricks.com/2018/06/append-or-prepend-html-using-reactjs.html
+
+Today, In this tutorial we will see how to Append and Prepend element in react like Jquery. In react we are performing append and prepend operation by maintaining simple Array.
+push() - append content in array.
+unshift() -  prepend content in array.
+react Append or prepend to an element 
+
+Append element in react by using below function :
+Appending content in array by using push function and with the help of state we are render the content in browser.
+appendData() {
+         this.displayData.push(<div  id="display-data"><pre>{this.state.postVal}</pre></div>);
+         this.setState({
+            showdata : this.displayData,
+            postVal : ""
+         });
+      }
+
+Prepend element in react by using below function :
+Prepending content in array by using unshift function and with the help of state we are render the content in browser.
+prependData() {
+   this.displayData.unshift(<div id="display-data"><pre>{this.state.postVal}</pre></div>);
+   this.setState({
+      showdata : this.displayData,
+      postVal : ""
+   });
+ }

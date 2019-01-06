@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="main-registration-container"
+>
+  <div
+    id="register"
+  >
+    <h3>
+      Registration page1
+    </h3>
+    <form
+      method="post"
+      name="userRegistrationForm"
+      onSubmit={[Function]}
+    >
+      <label>
+        Name
+      </label>
+      <input
+        name="username"
+        onChange={[Function]}
+        type="text"
+        value={undefined}
+      />
+      <div
+        className="errorMsg"
+      />
+      <label>
+        Email ID:
+      </label>
+      <input
+        name="emailid"
+        onChange={[Function]}
+        type="text"
+        value={undefined}
+      />
+      <div
+        className="errorMsg"
+      />
+      <label>
+        Mobile No:
+      </label>
+      <input
+        name="mobileno"
+        onChange={[Function]}
+        type="text"
+        value={undefined}
+      />
+      <div
+        className="errorMsg"
+      />
+      <label>
+        Password
+      </label>
+      <input
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value={undefined}
+      />
+      <div
+        className="errorMsg"
+      />
+      <input
+        className="button"
+        type="submit"
+        value="Register"
+      />
+    </form>
+  </div>
+</div>
+`;
